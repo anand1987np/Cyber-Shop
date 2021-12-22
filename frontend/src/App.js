@@ -18,8 +18,8 @@ function App() {
 
   useEffect(() => {
     if (
-      pageUrl.includes("checkout") ||
-      pageUrl.includes("order-confirmation")
+      pageUrl.includes("Shipping") ||
+      pageUrl.includes("thankyou")
     ) {
       setShowFooter(false);
     }
