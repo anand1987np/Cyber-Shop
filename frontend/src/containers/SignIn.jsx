@@ -57,7 +57,7 @@ const SignIn = ({ trigger, setTrigger, setsignup }) => {
               </div>
 
               <button className="button" onClick={submitButton}>
-                JOIN US
+                LET'S GO
               </button>
               <p>
                 Not a Member?
