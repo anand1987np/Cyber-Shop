@@ -17,7 +17,7 @@ export const fetchCarts = () => {
         dispatch(fetchCartItemsAction(carts, subtotal));
       })
       .catch((error) => {
-        alert("Failed to connect API: /carts/");
+        alert();
       });
   };
 };
